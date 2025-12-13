@@ -1,0 +1,167 @@
+form {
+    /*display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 320px;
+    margin-top: 24px; */
+
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        
+        width: 360px;
+            height: 282px;
+}
+
+label {
+    
+display: flex;
+   
+    flex-direction: column;
+  
+    gap: 4px;
+   
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    width: 100%;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    width: 100%;
+   
+        box-sizing: border-box;
+}
+
+legend {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+button[data-create] {
+  /*  padding: 10px 20px;
+    font-size: 16px;
+    
+    background: #4e75ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+*/
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 8px;
+            padding-block: 8px;
+            padding-inline: 16px;
+            width: 360px;
+            height: 40px;
+            background: #4e75ff;
+            width: 100%;
+            box-sizing: border-box;
+}
+
+button[data-create]:hover {
+    background: #6c8cff;}
+
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+}
+
+input[type="number"]:focus {
+    border-color: #2563eb;
+
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  
+}
+
+
+fieldset:hover {
+    border-color: #2563eb;
+}
+
+
+legend {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e2f42;
+    margin-bottom: 12px;
+}
+
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
+input[type="radio"] {
+    accent-color: #2563eb;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+input[type="radio"]:hover {
+    outline: 2px solid rgba(37, 99, 235, 0.3);
+    outline-offset: 2px;
+}
+
+
+input[type="radio"]:checked {
+    accent-color: #2563eb;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+        
+        width: 100%;
+}
+
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #2e2f42;
+    cursor: pointer;
+}
+        
